@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+a, p, .hobby {
+    font-family: open sans;
+}
+main {
+    text-align: center;
+}
+.link {
+    display: block; 
+    text-align: center;
+}
+.image  {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.why {
+    font-weight: normal;
+    font-family: raleway;
+    position: relative;
+    padding: 100px 0 25px 0;
+}.why::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 62px;
+    height: 1px;
+    background-color: black;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+  }
+.why-p {
+    color: #86878B;
+    padding: 30px 0 67px 0;
+}
+.why-awecome {
+    font-size: 0;
+}
+.why-awecome-block{
+    vertical-align: top;
+    font-size: 16px;
+    width: 33.33%;
+    display: inline-block;
+}
+.why-text {
+    font-family: open sans; 
+    padding: 28px 0 18px 0;
+}
+.main {
+    padding: 0 127px 0 127px;
+}
+.text {
+    padding: 0 16px 0 16px;
+}
